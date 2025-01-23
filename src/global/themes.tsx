@@ -4,5 +4,6 @@ export const themas = {
         powderBlue: '#cbded0',
         black: '#000',
         white: '#fff',
+        CinzaClaro: '#F0F0F0',
     }
 }
