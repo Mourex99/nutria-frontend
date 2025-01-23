@@ -3,6 +3,7 @@ import { Text, View, Image, TextInput, Button, TouchableOpacity } from "react-na
 import { style } from "./styles";
 import Logo from "../../assets/logotipo.png";
 import { MaterialIcons } from '@expo/vector-icons';
+import { themas } from "../../global/themes";
 
 export default function Login() {
   const [showPassword, setShowPassword] = useState(false);
@@ -44,7 +45,12 @@ export default function Login() {
         <TouchableOpacity style={style.button}>
           <Text style={style.textButton}>Entrar</Text>
         </TouchableOpacity>
+        
+        <TouchableOpacity>
+        <Text style={style.create}>Não tem Conta? <Text style={{color:themas.colors.seaGreen}}>Crie agora</Text></Text>
+        </TouchableOpacity>
       </View>
+  
     </View>
   );
 }

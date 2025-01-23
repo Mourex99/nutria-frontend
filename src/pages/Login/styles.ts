@@ -25,6 +25,7 @@ export const style = StyleSheet.create({
         width: '100%',
         backgroundColor: '#cbded0',
         alignItems: 'center',
+        
     },
     logo: {
         height: 200,
@@ -75,11 +76,15 @@ export const style = StyleSheet.create({
         shadowOffset: { width: 0, height: 2 },
         shadowOpacity: 0.25,
         shadowRadius: 3.84,
-        elevation: 5, 
+        elevation: 5,
+        marginTop: -40, 
     },
     textButton:{
         color: themas.colors.white,
         fontSize: 18,
         fontWeight: 'bold',
+    },
+    create:{
+        paddingTop: 20,
     }
 });
